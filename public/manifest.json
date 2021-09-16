@@ -1,0 +1,9 @@
+{
+    "name": "Boilerplate for NextJS Apps",
+    "short_name": "Boilerplate",
+    "background_color": "#06092B",
+    "description": "Boilerlate utilizando Typescript, React, NextJS e Styled Components!",
+    "display": "fullscreen",
+    "start_url": "/",
+    "theme_color": "#06092B"
+  }
