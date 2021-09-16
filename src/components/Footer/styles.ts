@@ -1,7 +1,11 @@
 import styled, { css } from 'styled-components'
 import media from 'styled-media-query'
 
-export const Wrapper = styled.footer``
+export const Wrapper = styled.footer`
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+`
 
 export const Content = styled.div`
   ${({ theme }) => css`

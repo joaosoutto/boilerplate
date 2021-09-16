@@ -5,7 +5,7 @@ import * as S from './styles'
 
 const Footer = () => (
   <S.Wrapper>
-    <Logo color="black" />
+    <Logo hideOnMobile />
     <S.Content>
       <S.Column>
         <Heading color="black" size="small" lineBottom lineColor="secondary">
@@ -70,7 +70,7 @@ const Footer = () => (
         <span>Belo Horizonte / MG</span>
       </S.Column>
     </S.Content>
-    <S.Copyright>Won Games 2021 All rights reserved.</S.Copyright>
+    <S.Copyright>Joao Soutto 2021 All rights reserved.</S.Copyright>
   </S.Wrapper>
 )
 
